@@ -1,0 +1,1229 @@
+{
+ "generated": "2026-09-19T16:35:25.146369+00:00",
+ "question": "Of listings at a given all-time rating, how many actually hold the Superhost badge? Measured from Inside Airbnb's host_is_superhost field rather than inferred from the 4.8 rating threshold.",
+ "min_reviews": 10,
+ "cities": 123,
+ "totals": {
+  "listings": 871140,
+  "superhosts": 444910,
+  "pct_superhost": 51.1
+ },
+ "by_rating_band": {
+  "<4.50": {
+   "listings": 63270,
+   "superhosts": 3918,
+   "pct_superhost": 6.2
+  },
+  "4.50-4.69": {
+   "listings": 130830,
+   "superhosts": 25436,
+   "pct_superhost": 19.4
+  },
+  "4.70-4.79": {
+   "listings": 132112,
+   "superhosts": 52404,
+   "pct_superhost": 39.7
+  },
+  "4.80-4.89": {
+   "listings": 212173,
+   "superhosts": 129899,
+   "pct_superhost": 61.2
+  },
+  "4.90-4.94": {
+   "listings": 145243,
+   "superhosts": 100332,
+   "pct_superhost": 69.1
+  },
+  "4.95+": {
+   "listings": 187512,
+   "superhosts": 132921,
+   "pct_superhost": 70.9
+  }
+ },
+ "by_review_count": {
+  "10-24": {
+   "listings": 266848,
+   "superhosts": 98728,
+   "pct_superhost": 37.0
+  },
+  "25-49": {
+   "listings": 209460,
+   "superhosts": 101464,
+   "pct_superhost": 48.4
+  },
+  "50-99": {
+   "listings": 183672,
+   "superhosts": 104415,
+   "pct_superhost": 56.8
+  },
+  "100-249": {
+   "listings": 154205,
+   "superhosts": 99322,
+   "pct_superhost": 64.4
+  },
+  "250+": {
+   "listings": 56955,
+   "superhosts": 40981,
+   "pct_superhost": 72.0
+  }
+ },
+ "by_rating_and_reviews": {
+  "4.50-4.69|10-24": {
+   "listings": 43751,
+   "superhosts": 8731,
+   "pct_superhost": 20.0
+  },
+  "4.50-4.69|100-249": {
+   "listings": 20204,
+   "superhosts": 3889,
+   "pct_superhost": 19.2
+  },
+  "4.50-4.69|25-49": {
+   "listings": 33359,
+   "superhosts": 6399,
+   "pct_superhost": 19.2
+  },
+  "4.50-4.69|250+": {
+   "listings": 6970,
+   "superhosts": 1548,
+   "pct_superhost": 22.2
+  },
+  "4.50-4.69|50-99": {
+   "listings": 26546,
+   "superhosts": 4869,
+   "pct_superhost": 18.3
+  },
+  "4.70-4.79|10-24": {
+   "listings": 34796,
+   "superhosts": 11218,
+   "pct_superhost": 32.2
+  },
+  "4.70-4.79|100-249": {
+   "listings": 25936,
+   "superhosts": 11791,
+   "pct_superhost": 45.5
+  },
+  "4.70-4.79|25-49": {
+   "listings": 31916,
+   "superhosts": 11968,
+   "pct_superhost": 37.5
+  },
+  "4.70-4.79|250+": {
+   "listings": 9710,
+   "superhosts": 5125,
+   "pct_superhost": 52.8
+  },
+  "4.70-4.79|50-99": {
+   "listings": 29754,
+   "superhosts": 12302,
+   "pct_superhost": 41.3
+  },
+  "4.80-4.89|10-24": {
+   "listings": 49161,
+   "superhosts": 21487,
+   "pct_superhost": 43.7
+  },
+  "4.80-4.89|100-249": {
+   "listings": 45336,
+   "superhosts": 33282,
+   "pct_superhost": 73.4
+  },
+  "4.80-4.89|25-49": {
+   "listings": 50430,
+   "superhosts": 28286,
+   "pct_superhost": 56.1
+  },
+  "4.80-4.89|250+": {
+   "listings": 18057,
+   "superhosts": 14775,
+   "pct_superhost": 81.8
+  },
+  "4.80-4.89|50-99": {
+   "listings": 49189,
+   "superhosts": 32069,
+   "pct_superhost": 65.2
+  },
+  "4.90-4.94|10-24": {
+   "listings": 41191,
+   "superhosts": 19631,
+   "pct_superhost": 47.7
+  },
+  "4.90-4.94|100-249": {
+   "listings": 29123,
+   "superhosts": 24887,
+   "pct_superhost": 85.5
+  },
+  "4.90-4.94|25-49": {
+   "listings": 31939,
+   "superhosts": 21005,
+   "pct_superhost": 65.8
+  },
+  "4.90-4.94|250+": {
+   "listings": 11250,
+   "superhosts": 10373,
+   "pct_superhost": 92.2
+  },
+  "4.90-4.94|50-99": {
+   "listings": 31740,
+   "superhosts": 24436,
+   "pct_superhost": 77.0
+  },
+  "4.95+|10-24": {
+   "listings": 67094,
+   "superhosts": 35390,
+   "pct_superhost": 52.7
+  },
+  "4.95+|100-249": {
+   "listings": 28299,
+   "superhosts": 25202,
+   "pct_superhost": 89.1
+  },
+  "4.95+|25-49": {
+   "listings": 45693,
+   "superhosts": 32947,
+   "pct_superhost": 72.1
+  },
+  "4.95+|250+": {
+   "listings": 9645,
+   "superhosts": 9090,
+   "pct_superhost": 94.2
+  },
+  "4.95+|50-99": {
+   "listings": 36781,
+   "superhosts": 30292,
+   "pct_superhost": 82.4
+  },
+  "<4.50|10-24": {
+   "listings": 30855,
+   "superhosts": 2271,
+   "pct_superhost": 7.4
+  },
+  "<4.50|100-249": {
+   "listings": 5307,
+   "superhosts": 271,
+   "pct_superhost": 5.1
+  },
+  "<4.50|25-49": {
+   "listings": 16123,
+   "superhosts": 859,
+   "pct_superhost": 5.3
+  },
+  "<4.50|250+": {
+   "listings": 1323,
+   "superhosts": 70,
+   "pct_superhost": 5.3
+  },
+  "<4.50|50-99": {
+   "listings": 9662,
+   "superhosts": 447,
+   "pct_superhost": 4.6
+  }
+ },
+ "rating_distribution": {
+  "superhosts": {
+   "n": 444910,
+   "median": 4.9,
+   "mean": 4.8762
+  },
+  "non_superhosts": {
+   "n": 426230,
+   "median": 4.76,
+   "mean": 4.7188
+  }
+ },
+ "reviews_last_12_months": {
+  "superhosts_median": 18.0,
+  "non_superhosts_median": 7.0
+ },
+ "by_city": {
+  "buenos-aires": {
+   "eligible": 17985,
+   "pct_superhost": 54.6,
+   "above_48": 11823,
+   "pct_of_above_that_are_sh": 69.0,
+   "below_48": 6162,
+   "pct_of_below_that_are_sh": 27.1
+  },
+  "mid-north-coast": {
+   "eligible": 3087,
+   "pct_superhost": 54.6,
+   "above_48": 2187,
+   "pct_of_above_that_are_sh": 67.9,
+   "below_48": 900,
+   "pct_of_below_that_are_sh": 22.1
+  },
+  "northern-rivers": {
+   "eligible": 3468,
+   "pct_superhost": 60.9,
+   "above_48": 2583,
+   "pct_of_above_that_are_sh": 70.6,
+   "below_48": 885,
+   "pct_of_below_that_are_sh": 32.7
+  },
+  "sydney": {
+   "eligible": 10891,
+   "pct_superhost": 46.8,
+   "above_48": 6025,
+   "pct_of_above_that_are_sh": 66.6,
+   "below_48": 4866,
+   "pct_of_below_that_are_sh": 22.3
+  },
+  "brisbane": {
+   "eligible": 4007,
+   "pct_superhost": 46.9,
+   "above_48": 2231,
+   "pct_of_above_that_are_sh": 69.1,
+   "below_48": 1776,
+   "pct_of_below_that_are_sh": 19.0
+  },
+  "sunshine-coast": {
+   "eligible": 4243,
+   "pct_superhost": 67.0,
+   "above_48": 3216,
+   "pct_of_above_that_are_sh": 75.4,
+   "below_48": 1027,
+   "pct_of_below_that_are_sh": 40.7
+  },
+  "barossa-valley": {
+   "eligible": 250,
+   "pct_superhost": 62.8,
+   "above_48": 203,
+   "pct_of_above_that_are_sh": 70.4,
+   "below_48": 47,
+   "pct_of_below_that_are_sh": 29.8
+  },
+  "tasmania": {
+   "eligible": 5211,
+   "pct_superhost": 66.6,
+   "above_48": 3937,
+   "pct_of_above_that_are_sh": 76.7,
+   "below_48": 1274,
+   "pct_of_below_that_are_sh": 35.6
+  },
+  "barwon-south-west-vic": {
+   "eligible": 4518,
+   "pct_superhost": 56.7,
+   "above_48": 3163,
+   "pct_of_above_that_are_sh": 66.6,
+   "below_48": 1355,
+   "pct_of_below_that_are_sh": 33.4
+  },
+  "melbourne": {
+   "eligible": 13267,
+   "pct_superhost": 47.8,
+   "above_48": 8109,
+   "pct_of_above_that_are_sh": 64.8,
+   "below_48": 5158,
+   "pct_of_below_that_are_sh": 21.1
+  },
+  "mornington-peninsula": {
+   "eligible": 2651,
+   "pct_superhost": 57.9,
+   "above_48": 1961,
+   "pct_of_above_that_are_sh": 64.8,
+   "below_48": 690,
+   "pct_of_below_that_are_sh": 38.3
+  },
+  "western-australia": {
+   "eligible": 8678,
+   "pct_superhost": 64.4,
+   "above_48": 5844,
+   "pct_of_above_that_are_sh": 79.0,
+   "below_48": 2834,
+   "pct_of_below_that_are_sh": 34.4
+  },
+  "vienna": {
+   "eligible": 7390,
+   "pct_superhost": 36.6,
+   "above_48": 3724,
+   "pct_of_above_that_are_sh": 57.2,
+   "below_48": 3666,
+   "pct_of_below_that_are_sh": 15.7
+  },
+  "brussels": {
+   "eligible": 3299,
+   "pct_superhost": 36.6,
+   "above_48": 1522,
+   "pct_of_above_that_are_sh": 60.1,
+   "below_48": 1777,
+   "pct_of_below_that_are_sh": 16.5
+  },
+  "antwerp": {
+   "eligible": 1462,
+   "pct_superhost": 36.1,
+   "above_48": 713,
+   "pct_of_above_that_are_sh": 63.3,
+   "below_48": 749,
+   "pct_of_below_that_are_sh": 10.3
+  },
+  "ghent": {
+   "eligible": 942,
+   "pct_superhost": 47.8,
+   "above_48": 527,
+   "pct_of_above_that_are_sh": 66.6,
+   "below_48": 415,
+   "pct_of_below_that_are_sh": 23.9
+  },
+  "belize": {
+   "eligible": 1684,
+   "pct_superhost": 65.0,
+   "above_48": 1219,
+   "pct_of_above_that_are_sh": 78.3,
+   "below_48": 465,
+   "pct_of_below_that_are_sh": 30.3
+  },
+  "rio-de-janeiro": {
+   "eligible": 22938,
+   "pct_superhost": 57.8,
+   "above_48": 16464,
+   "pct_of_above_that_are_sh": 68.6,
+   "below_48": 6474,
+   "pct_of_below_that_are_sh": 30.4
+  },
+  "s\u00e3o-paulo": {
+   "eligible": 24192,
+   "pct_superhost": 63.5,
+   "above_48": 16636,
+   "pct_of_above_that_are_sh": 77.5,
+   "below_48": 7556,
+   "pct_of_below_that_are_sh": 32.7
+  },
+  "vancouver": {
+   "eligible": 3539,
+   "pct_superhost": 59.4,
+   "above_48": 2492,
+   "pct_of_above_that_are_sh": 71.9,
+   "below_48": 1047,
+   "pct_of_below_that_are_sh": 29.6
+  },
+  "victoria": {
+   "eligible": 2545,
+   "pct_superhost": 66.0,
+   "above_48": 2087,
+   "pct_of_above_that_are_sh": 73.4,
+   "below_48": 458,
+   "pct_of_below_that_are_sh": 32.5
+  },
+  "winnipeg": {
+   "eligible": 1198,
+   "pct_superhost": 53.8,
+   "above_48": 728,
+   "pct_of_above_that_are_sh": 71.8,
+   "below_48": 470,
+   "pct_of_below_that_are_sh": 26.0
+  },
+  "new-brunswick": {
+   "eligible": 2908,
+   "pct_superhost": 63.0,
+   "above_48": 2296,
+   "pct_of_above_that_are_sh": 71.7,
+   "below_48": 612,
+   "pct_of_below_that_are_sh": 30.2
+  },
+  "ottawa": {
+   "eligible": 1498,
+   "pct_superhost": 56.5,
+   "above_48": 960,
+   "pct_of_above_that_are_sh": 71.8,
+   "below_48": 538,
+   "pct_of_below_that_are_sh": 29.2
+  },
+  "toronto": {
+   "eligible": 9921,
+   "pct_superhost": 53.1,
+   "above_48": 6910,
+   "pct_of_above_that_are_sh": 64.4,
+   "below_48": 3011,
+   "pct_of_below_that_are_sh": 27.1
+  },
+  "montreal": {
+   "eligible": 5265,
+   "pct_superhost": 51.3,
+   "above_48": 2932,
+   "pct_of_above_that_are_sh": 69.7,
+   "below_48": 2333,
+   "pct_of_below_that_are_sh": 28.1
+  },
+  "quebec-city": {
+   "eligible": 1452,
+   "pct_superhost": 50.8,
+   "above_48": 830,
+   "pct_of_above_that_are_sh": 73.0,
+   "below_48": 622,
+   "pct_of_below_that_are_sh": 21.2
+  },
+  "santiago": {
+   "eligible": 10198,
+   "pct_superhost": 61.6,
+   "above_48": 6853,
+   "pct_of_above_that_are_sh": 75.0,
+   "below_48": 3345,
+   "pct_of_below_that_are_sh": 34.2
+  },
+  "hong-kong": {
+   "eligible": 1808,
+   "pct_superhost": 33.6,
+   "above_48": 669,
+   "pct_of_above_that_are_sh": 59.8,
+   "below_48": 1139,
+   "pct_of_below_that_are_sh": 18.2
+  },
+  "bogot\u00e1": {
+   "eligible": 8900,
+   "pct_superhost": 49.6,
+   "above_48": 4982,
+   "pct_of_above_that_are_sh": 70.0,
+   "below_48": 3918,
+   "pct_of_below_that_are_sh": 23.8
+  },
+  "prague": {
+   "eligible": 8063,
+   "pct_superhost": 57.5,
+   "above_48": 4559,
+   "pct_of_above_that_are_sh": 78.9,
+   "below_48": 3504,
+   "pct_of_below_that_are_sh": 29.8
+  },
+  "copenhagen": {
+   "eligible": 10556,
+   "pct_superhost": 23.2,
+   "above_48": 7747,
+   "pct_of_above_that_are_sh": 26.8,
+   "below_48": 2809,
+   "pct_of_below_that_are_sh": 13.3
+  },
+  "lyon": {
+   "eligible": 4803,
+   "pct_superhost": 35.1,
+   "above_48": 2620,
+   "pct_of_above_that_are_sh": 51.7,
+   "below_48": 2183,
+   "pct_of_below_that_are_sh": 15.2
+  },
+  "paris": {
+   "eligible": 38076,
+   "pct_superhost": 35.5,
+   "above_48": 21653,
+   "pct_of_above_that_are_sh": 48.6,
+   "below_48": 16423,
+   "pct_of_below_that_are_sh": 18.1
+  },
+  "bordeaux": {
+   "eligible": 6359,
+   "pct_superhost": 40.5,
+   "above_48": 4005,
+   "pct_of_above_that_are_sh": 52.8,
+   "below_48": 2354,
+   "pct_of_below_that_are_sh": 19.6
+  },
+  "pays-basque": {
+   "eligible": 6602,
+   "pct_superhost": 38.2,
+   "above_48": 4266,
+   "pct_of_above_that_are_sh": 48.8,
+   "below_48": 2336,
+   "pct_of_below_that_are_sh": 18.8
+  },
+  "berlin": {
+   "eligible": 6643,
+   "pct_superhost": 42.5,
+   "above_48": 3982,
+   "pct_of_above_that_are_sh": 56.6,
+   "below_48": 2661,
+   "pct_of_below_that_are_sh": 21.4
+  },
+  "munich": {
+   "eligible": 3028,
+   "pct_superhost": 38.7,
+   "above_48": 1937,
+   "pct_of_above_that_are_sh": 49.6,
+   "below_48": 1091,
+   "pct_of_below_that_are_sh": 19.5
+  },
+  "athens": {
+   "eligible": 8696,
+   "pct_superhost": 61.3,
+   "above_48": 5763,
+   "pct_of_above_that_are_sh": 75.2,
+   "below_48": 2933,
+   "pct_of_below_that_are_sh": 34.1
+  },
+  "thessaloniki": {
+   "eligible": 2895,
+   "pct_superhost": 50.3,
+   "above_48": 1712,
+   "pct_of_above_that_are_sh": 69.5,
+   "below_48": 1183,
+   "pct_of_below_that_are_sh": 22.5
+  },
+  "crete": {
+   "eligible": 12532,
+   "pct_superhost": 60.5,
+   "above_48": 9727,
+   "pct_of_above_that_are_sh": 67.4,
+   "below_48": 2805,
+   "pct_of_below_that_are_sh": 36.8
+  },
+  "south-aegean": {
+   "eligible": 16405,
+   "pct_superhost": 58.2,
+   "above_48": 12726,
+   "pct_of_above_that_are_sh": 65.5,
+   "below_48": 3679,
+   "pct_of_below_that_are_sh": 32.9
+  },
+  "budapest": {
+   "eligible": 8472,
+   "pct_superhost": 50.7,
+   "above_48": 4873,
+   "pct_of_above_that_are_sh": 71.6,
+   "below_48": 3599,
+   "pct_of_below_that_are_sh": 22.5
+  },
+  "ireland": {
+   "eligible": 20196,
+   "pct_superhost": 55.7,
+   "above_48": 15085,
+   "pct_of_above_that_are_sh": 66.5,
+   "below_48": 5111,
+   "pct_of_below_that_are_sh": 23.8
+  },
+  "dublin": {
+   "eligible": 3896,
+   "pct_superhost": 43.5,
+   "above_48": 2202,
+   "pct_of_above_that_are_sh": 62.3,
+   "below_48": 1694,
+   "pct_of_below_that_are_sh": 19.0
+  },
+  "naples": {
+   "eligible": 5237,
+   "pct_superhost": 46.2,
+   "above_48": 3035,
+   "pct_of_above_that_are_sh": 65.7,
+   "below_48": 2202,
+   "pct_of_below_that_are_sh": 19.3
+  },
+  "bologna": {
+   "eligible": 3205,
+   "pct_superhost": 46.8,
+   "above_48": 1799,
+   "pct_of_above_that_are_sh": 68.8,
+   "below_48": 1406,
+   "pct_of_below_that_are_sh": 18.6
+  },
+  "rome": {
+   "eligible": 23981,
+   "pct_superhost": 55.4,
+   "above_48": 14671,
+   "pct_of_above_that_are_sh": 72.6,
+   "below_48": 9310,
+   "pct_of_below_that_are_sh": 28.2
+  },
+  "bergamo": {
+   "eligible": 2097,
+   "pct_superhost": 49.5,
+   "above_48": 1380,
+   "pct_of_above_that_are_sh": 63.8,
+   "below_48": 717,
+   "pct_of_below_that_are_sh": 22.0
+  },
+  "milan": {
+   "eligible": 13896,
+   "pct_superhost": 43.7,
+   "above_48": 7816,
+   "pct_of_above_that_are_sh": 63.8,
+   "below_48": 6080,
+   "pct_of_below_that_are_sh": 17.9
+  },
+  "puglia": {
+   "eligible": 13223,
+   "pct_superhost": 43.8,
+   "above_48": 8607,
+   "pct_of_above_that_are_sh": 56.3,
+   "below_48": 4616,
+   "pct_of_below_that_are_sh": 20.4
+  },
+  "sicily": {
+   "eligible": 20415,
+   "pct_superhost": 48.6,
+   "above_48": 12735,
+   "pct_of_above_that_are_sh": 63.1,
+   "below_48": 7680,
+   "pct_of_below_that_are_sh": 24.5
+  },
+  "florence": {
+   "eligible": 9345,
+   "pct_superhost": 54.9,
+   "above_48": 5574,
+   "pct_of_above_that_are_sh": 74.8,
+   "below_48": 3771,
+   "pct_of_below_that_are_sh": 25.5
+  },
+  "trentino": {
+   "eligible": 4060,
+   "pct_superhost": 43.3,
+   "above_48": 2766,
+   "pct_of_above_that_are_sh": 54.7,
+   "below_48": 1294,
+   "pct_of_below_that_are_sh": 19.1
+  },
+  "venice": {
+   "eligible": 6319,
+   "pct_superhost": 55.6,
+   "above_48": 3594,
+   "pct_of_above_that_are_sh": 76.7,
+   "below_48": 2725,
+   "pct_of_below_that_are_sh": 27.9
+  },
+  "tokyo": {
+   "eligible": 21367,
+   "pct_superhost": 61.8,
+   "above_48": 11403,
+   "pct_of_above_that_are_sh": 84.1,
+   "below_48": 9964,
+   "pct_of_below_that_are_sh": 36.3
+  },
+  "nairobi": {
+   "eligible": 3223,
+   "pct_superhost": 48.4,
+   "above_48": 1882,
+   "pct_of_above_that_are_sh": 66.3,
+   "below_48": 1341,
+   "pct_of_below_that_are_sh": 23.2
+  },
+  "riga": {
+   "eligible": 2174,
+   "pct_superhost": 63.2,
+   "above_48": 1478,
+   "pct_of_above_that_are_sh": 74.8,
+   "below_48": 696,
+   "pct_of_below_that_are_sh": 38.5
+  },
+  "malta": {
+   "eligible": 6366,
+   "pct_superhost": 43.8,
+   "above_48": 3348,
+   "pct_of_above_that_are_sh": 65.4,
+   "below_48": 3018,
+   "pct_of_below_that_are_sh": 19.9
+  },
+  "mexico-city": {
+   "eligible": 18786,
+   "pct_superhost": 53.8,
+   "above_48": 11193,
+   "pct_of_above_that_are_sh": 71.1,
+   "below_48": 7593,
+   "pct_of_below_that_are_sh": 28.2
+  },
+  "new-zealand": {
+   "eligible": 33171,
+   "pct_superhost": 64.8,
+   "above_48": 25575,
+   "pct_of_above_that_are_sh": 72.7,
+   "below_48": 7596,
+   "pct_of_below_that_are_sh": 38.2
+  },
+  "oslo": {
+   "eligible": 4986,
+   "pct_superhost": 36.9,
+   "above_48": 3727,
+   "pct_of_above_that_are_sh": 44.4,
+   "below_48": 1259,
+   "pct_of_below_that_are_sh": 14.9
+  },
+  "lisbon": {
+   "eligible": 15715,
+   "pct_superhost": 42.3,
+   "above_48": 6872,
+   "pct_of_above_that_are_sh": 69.7,
+   "below_48": 8843,
+   "pct_of_below_that_are_sh": 21.0
+  },
+  "porto": {
+   "eligible": 10125,
+   "pct_superhost": 47.5,
+   "above_48": 5042,
+   "pct_of_above_that_are_sh": 71.9,
+   "below_48": 5083,
+   "pct_of_below_that_are_sh": 23.4
+  },
+  "singapore": {
+   "eligible": 551,
+   "pct_superhost": 24.5,
+   "above_48": 192,
+   "pct_of_above_that_are_sh": 42.2,
+   "below_48": 359,
+   "pct_of_below_that_are_sh": 15.0
+  },
+  "cape-town": {
+   "eligible": 12699,
+   "pct_superhost": 53.5,
+   "above_48": 8378,
+   "pct_of_above_that_are_sh": 66.3,
+   "below_48": 4321,
+   "pct_of_below_that_are_sh": 28.6
+  },
+  "malaga": {
+   "eligible": 6150,
+   "pct_superhost": 41.4,
+   "above_48": 2556,
+   "pct_of_above_that_are_sh": 69.0,
+   "below_48": 3594,
+   "pct_of_below_that_are_sh": 21.8
+  },
+  "sevilla": {
+   "eligible": 5926,
+   "pct_superhost": 47.4,
+   "above_48": 2784,
+   "pct_of_above_that_are_sh": 70.7,
+   "below_48": 3142,
+   "pct_of_below_that_are_sh": 26.8
+  },
+  "barcelona": {
+   "eligible": 7526,
+   "pct_superhost": 38.5,
+   "above_48": 2544,
+   "pct_of_above_that_are_sh": 72.8,
+   "below_48": 4982,
+   "pct_of_below_that_are_sh": 21.0
+  },
+  "girona": {
+   "eligible": 8888,
+   "pct_superhost": 36.5,
+   "above_48": 4457,
+   "pct_of_above_that_are_sh": 55.2,
+   "below_48": 4431,
+   "pct_of_below_that_are_sh": 17.7
+  },
+  "madrid": {
+   "eligible": 13189,
+   "pct_superhost": 34.7,
+   "above_48": 5192,
+   "pct_of_above_that_are_sh": 62.4,
+   "below_48": 7997,
+   "pct_of_below_that_are_sh": 16.6
+  },
+  "mallorca": {
+   "eligible": 7218,
+   "pct_superhost": 35.3,
+   "above_48": 3716,
+   "pct_of_above_that_are_sh": 54.1,
+   "below_48": 3502,
+   "pct_of_below_that_are_sh": 15.4
+  },
+  "menorca": {
+   "eligible": 1880,
+   "pct_superhost": 44.2,
+   "above_48": 942,
+   "pct_of_above_that_are_sh": 59.9,
+   "below_48": 938,
+   "pct_of_below_that_are_sh": 28.5
+  },
+  "euskadi": {
+   "eligible": 4262,
+   "pct_superhost": 49.2,
+   "above_48": 2421,
+   "pct_of_above_that_are_sh": 69.2,
+   "below_48": 1841,
+   "pct_of_below_that_are_sh": 23.0
+  },
+  "valencia": {
+   "eligible": 4844,
+   "pct_superhost": 44.0,
+   "above_48": 2129,
+   "pct_of_above_that_are_sh": 72.5,
+   "below_48": 2715,
+   "pct_of_below_that_are_sh": 21.7
+  },
+  "stockholm": {
+   "eligible": 2232,
+   "pct_superhost": 32.5,
+   "above_48": 1509,
+   "pct_of_above_that_are_sh": 41.4,
+   "below_48": 723,
+   "pct_of_below_that_are_sh": 14.0
+  },
+  "geneva": {
+   "eligible": 1132,
+   "pct_superhost": 27.8,
+   "above_48": 606,
+   "pct_of_above_that_are_sh": 42.2,
+   "below_48": 526,
+   "pct_of_below_that_are_sh": 11.2
+  },
+  "vaud": {
+   "eligible": 2158,
+   "pct_superhost": 41.4,
+   "above_48": 1472,
+   "pct_of_above_that_are_sh": 48.5,
+   "below_48": 686,
+   "pct_of_below_that_are_sh": 26.2
+  },
+  "zurich": {
+   "eligible": 1439,
+   "pct_superhost": 53.7,
+   "above_48": 858,
+   "pct_of_above_that_are_sh": 62.4,
+   "below_48": 581,
+   "pct_of_below_that_are_sh": 41.0
+  },
+  "taipei": {
+   "eligible": 3419,
+   "pct_superhost": 58.2,
+   "above_48": 1883,
+   "pct_of_above_that_are_sh": 78.3,
+   "below_48": 1536,
+   "pct_of_below_that_are_sh": 33.6
+  },
+  "bangkok": {
+   "eligible": 10805,
+   "pct_superhost": 54.7,
+   "above_48": 6146,
+   "pct_of_above_that_are_sh": 75.8,
+   "below_48": 4659,
+   "pct_of_below_that_are_sh": 26.9
+  },
+  "amsterdam": {
+   "eligible": 5366,
+   "pct_superhost": 28.0,
+   "above_48": 3923,
+   "pct_of_above_that_are_sh": 30.9,
+   "below_48": 1443,
+   "pct_of_below_that_are_sh": 20.0
+  },
+  "rotterdam": {
+   "eligible": 770,
+   "pct_superhost": 30.1,
+   "above_48": 428,
+   "pct_of_above_that_are_sh": 41.6,
+   "below_48": 342,
+   "pct_of_below_that_are_sh": 15.8
+  },
+  "the-hague": {
+   "eligible": 721,
+   "pct_superhost": 29.1,
+   "above_48": 390,
+   "pct_of_above_that_are_sh": 37.7,
+   "below_48": 331,
+   "pct_of_below_that_are_sh": 19.0
+  },
+  "istanbul": {
+   "eligible": 9184,
+   "pct_superhost": 39.4,
+   "above_48": 4312,
+   "pct_of_above_that_are_sh": 63.0,
+   "below_48": 4872,
+   "pct_of_below_that_are_sh": 18.4
+  },
+  "bristol": {
+   "eligible": 1805,
+   "pct_superhost": 44.8,
+   "above_48": 1146,
+   "pct_of_above_that_are_sh": 60.4,
+   "below_48": 659,
+   "pct_of_below_that_are_sh": 17.8
+  },
+  "greater-manchester": {
+   "eligible": 3444,
+   "pct_superhost": 45.6,
+   "above_48": 1893,
+   "pct_of_above_that_are_sh": 68.4,
+   "below_48": 1551,
+   "pct_of_below_that_are_sh": 17.9
+  },
+  "london": {
+   "eligible": 37748,
+   "pct_superhost": 33.3,
+   "above_48": 19949,
+   "pct_of_above_that_are_sh": 49.8,
+   "below_48": 17799,
+   "pct_of_below_that_are_sh": 14.8
+  },
+  "edinburgh": {
+   "eligible": 4566,
+   "pct_superhost": 58.4,
+   "above_48": 2946,
+   "pct_of_above_that_are_sh": 75.9,
+   "below_48": 1620,
+   "pct_of_below_that_are_sh": 26.5
+  },
+  "los-angeles": {
+   "eligible": 19871,
+   "pct_superhost": 56.3,
+   "above_48": 13856,
+   "pct_of_above_that_are_sh": 67.9,
+   "below_48": 6015,
+   "pct_of_below_that_are_sh": 29.5
+  },
+  "oakland": {
+   "eligible": 1278,
+   "pct_superhost": 54.9,
+   "above_48": 919,
+   "pct_of_above_that_are_sh": 67.7,
+   "below_48": 359,
+   "pct_of_below_that_are_sh": 22.0
+  },
+  "pacific-grove": {
+   "eligible": 153,
+   "pct_superhost": 49.7,
+   "above_48": 120,
+   "pct_of_above_that_are_sh": 56.7,
+   "below_48": 33,
+   "pct_of_below_that_are_sh": 24.2
+  },
+  "san-diego": {
+   "eligible": 8228,
+   "pct_superhost": 67.1,
+   "above_48": 5927,
+   "pct_of_above_that_are_sh": 77.6,
+   "below_48": 2301,
+   "pct_of_below_that_are_sh": 40.1
+  },
+  "san-francisco": {
+   "eligible": 3573,
+   "pct_superhost": 63.0,
+   "above_48": 2616,
+   "pct_of_above_that_are_sh": 74.1,
+   "below_48": 957,
+   "pct_of_below_that_are_sh": 32.6
+  },
+  "san-mateo-county": {
+   "eligible": 1855,
+   "pct_superhost": 57.7,
+   "above_48": 1348,
+   "pct_of_above_that_are_sh": 68.9,
+   "below_48": 507,
+   "pct_of_below_that_are_sh": 27.8
+  },
+  "santa-clara-county": {
+   "eligible": 3534,
+   "pct_superhost": 58.8,
+   "above_48": 2449,
+   "pct_of_above_that_are_sh": 70.9,
+   "below_48": 1085,
+   "pct_of_below_that_are_sh": 31.5
+  },
+  "santa-cruz-county": {
+   "eligible": 1275,
+   "pct_superhost": 67.5,
+   "above_48": 977,
+   "pct_of_above_that_are_sh": 73.6,
+   "below_48": 298,
+   "pct_of_below_that_are_sh": 47.3
+  },
+  "denver": {
+   "eligible": 3055,
+   "pct_superhost": 68.4,
+   "above_48": 2589,
+   "pct_of_above_that_are_sh": 74.1,
+   "below_48": 466,
+   "pct_of_below_that_are_sh": 36.7
+  },
+  "washington-dc": {
+   "eligible": 4078,
+   "pct_superhost": 57.5,
+   "above_48": 2587,
+   "pct_of_above_that_are_sh": 73.7,
+   "below_48": 1491,
+   "pct_of_below_that_are_sh": 29.3
+  },
+  "broward-county": {
+   "eligible": 9604,
+   "pct_superhost": 52.5,
+   "above_48": 5676,
+   "pct_of_above_that_are_sh": 72.7,
+   "below_48": 3928,
+   "pct_of_below_that_are_sh": 23.4
+  },
+  "hawaii": {
+   "eligible": 18547,
+   "pct_superhost": 66.4,
+   "above_48": 12451,
+   "pct_of_above_that_are_sh": 78.6,
+   "below_48": 6096,
+   "pct_of_below_that_are_sh": 41.6
+  },
+  "chicago": {
+   "eligible": 5161,
+   "pct_superhost": 61.4,
+   "above_48": 3376,
+   "pct_of_above_that_are_sh": 76.8,
+   "below_48": 1785,
+   "pct_of_below_that_are_sh": 32.2
+  },
+  "new-orleans": {
+   "eligible": 4506,
+   "pct_superhost": 56.3,
+   "above_48": 3095,
+   "pct_of_above_that_are_sh": 68.5,
+   "below_48": 1411,
+   "pct_of_below_that_are_sh": 29.7
+  },
+  "boston": {
+   "eligible": 2353,
+   "pct_superhost": 50.1,
+   "above_48": 1329,
+   "pct_of_above_that_are_sh": 69.4,
+   "below_48": 1024,
+   "pct_of_below_that_are_sh": 25.2
+  },
+  "cambridge": {
+   "eligible": 758,
+   "pct_superhost": 59.2,
+   "above_48": 466,
+   "pct_of_above_that_are_sh": 73.4,
+   "below_48": 292,
+   "pct_of_below_that_are_sh": 36.6
+  },
+  "twin-cities-msa": {
+   "eligible": 3482,
+   "pct_superhost": 63.9,
+   "above_48": 2705,
+   "pct_of_above_that_are_sh": 72.7,
+   "below_48": 777,
+   "pct_of_below_that_are_sh": 33.1
+  },
+  "bozeman": {
+   "eligible": 405,
+   "pct_superhost": 75.8,
+   "above_48": 363,
+   "pct_of_above_that_are_sh": 80.2,
+   "below_48": 42,
+   "pct_of_below_that_are_sh": 38.1
+  },
+  "asheville": {
+   "eligible": 2194,
+   "pct_superhost": 72.0,
+   "above_48": 1918,
+   "pct_of_above_that_are_sh": 74.7,
+   "below_48": 276,
+   "pct_of_below_that_are_sh": 53.6
+  },
+  "jersey-city": {
+   "eligible": 1196,
+   "pct_superhost": 53.7,
+   "above_48": 670,
+   "pct_of_above_that_are_sh": 75.8,
+   "below_48": 526,
+   "pct_of_below_that_are_sh": 25.5
+  },
+  "newark": {
+   "eligible": 1064,
+   "pct_superhost": 41.4,
+   "above_48": 467,
+   "pct_of_above_that_are_sh": 73.2,
+   "below_48": 597,
+   "pct_of_below_that_are_sh": 16.4
+  },
+  "clark-county-nv": {
+   "eligible": 8435,
+   "pct_superhost": 61.9,
+   "above_48": 5767,
+   "pct_of_above_that_are_sh": 74.0,
+   "below_48": 2668,
+   "pct_of_below_that_are_sh": 35.7
+  },
+  "albany": {
+   "eligible": 279,
+   "pct_superhost": 55.9,
+   "above_48": 173,
+   "pct_of_above_that_are_sh": 74.6,
+   "below_48": 106,
+   "pct_of_below_that_are_sh": 25.5
+  },
+  "new-york-city": {
+   "eligible": 12004,
+   "pct_superhost": 36.6,
+   "above_48": 6857,
+   "pct_of_above_that_are_sh": 49.0,
+   "below_48": 5147,
+   "pct_of_below_that_are_sh": 20.1
+  },
+  "rochester": {
+   "eligible": 573,
+   "pct_superhost": 59.3,
+   "above_48": 425,
+   "pct_of_above_that_are_sh": 71.1,
+   "below_48": 148,
+   "pct_of_below_that_are_sh": 25.7
+  },
+  "columbus": {
+   "eligible": 1865,
+   "pct_superhost": 63.9,
+   "above_48": 1230,
+   "pct_of_above_that_are_sh": 81.1,
+   "below_48": 635,
+   "pct_of_below_that_are_sh": 30.6
+  },
+  "portland": {
+   "eligible": 2869,
+   "pct_superhost": 67.9,
+   "above_48": 2443,
+   "pct_of_above_that_are_sh": 73.3,
+   "below_48": 426,
+   "pct_of_below_that_are_sh": 37.1
+  },
+  "salem-or": {
+   "eligible": 190,
+   "pct_superhost": 73.2,
+   "above_48": 165,
+   "pct_of_above_that_are_sh": 79.4,
+   "below_48": 25,
+   "pct_of_below_that_are_sh": 32.0
+  },
+  "rhode-island": {
+   "eligible": 3462,
+   "pct_superhost": 63.3,
+   "above_48": 2705,
+   "pct_of_above_that_are_sh": 71.3,
+   "below_48": 757,
+   "pct_of_below_that_are_sh": 35.0
+  },
+  "nashville": {
+   "eligible": 6724,
+   "pct_superhost": 72.0,
+   "above_48": 5243,
+   "pct_of_above_that_are_sh": 81.2,
+   "below_48": 1481,
+   "pct_of_below_that_are_sh": 39.2
+  },
+  "austin": {
+   "eligible": 6617,
+   "pct_superhost": 64.7,
+   "above_48": 5041,
+   "pct_of_above_that_are_sh": 74.3,
+   "below_48": 1576,
+   "pct_of_below_that_are_sh": 33.9
+  },
+  "dallas": {
+   "eligible": 3527,
+   "pct_superhost": 58.1,
+   "above_48": 2269,
+   "pct_of_above_that_are_sh": 74.2,
+   "below_48": 1258,
+   "pct_of_below_that_are_sh": 29.0
+  },
+  "fort-worth": {
+   "eligible": 1268,
+   "pct_superhost": 60.4,
+   "above_48": 915,
+   "pct_of_above_that_are_sh": 73.7,
+   "below_48": 353,
+   "pct_of_below_that_are_sh": 26.1
+  },
+  "seattle": {
+   "eligible": 4927,
+   "pct_superhost": 67.8,
+   "above_48": 3839,
+   "pct_of_above_that_are_sh": 78.4,
+   "below_48": 1088,
+   "pct_of_below_that_are_sh": 30.5
+  }
+ },
+ "caveats": [
+  "host_is_superhost is a snapshot on the scrape date, not a history.",
+  "Superhost is assessed per HOST; this data is per LISTING, so a host with several listings is counted once per listing.",
+  "The rating here is all-time, which is exactly the point: the gap between it and the badge is what is being measured."
+ ]
+}

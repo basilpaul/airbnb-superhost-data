@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, and credit Inside Airbnb as the original data source."
+title: "Airbnb Superhost rating fragility and badge rates, 2026"
+authors:
+  - name: "StellarReply"
+    website: "https://stellarreply.com"
+type: dataset
+license: CC-BY-4.0
+url: "https://stellarreply.com/blog/airbnb-superhost-fragility-study.html"
+date-released: 2026-09-19
+references:
+  - type: data
+    title: "Inside Airbnb"
+    url: "https://insideairbnb.com/get-the-data/"
+    license: CC-BY-4.0
