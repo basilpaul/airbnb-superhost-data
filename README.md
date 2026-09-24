@@ -42,6 +42,7 @@ or "above" 4.8 as a whole.
 | `data/superhost_by_rating_and_reviews.csv` | The same, crossed with review-count band (30 cells) |
 | `data/superhost_by_city.csv` | Badge share above and below 4.8, per city |
 | `data/fragility_full.json`, `data/superhost_reality_full.json` | Complete machine-readable results |
+| `data/listing_fields_2026.csv` (`.csv.gz` on GitHub and Zenodo) | The input: one row per listing (1.7M rows) with only the four fields the studies read (`number_of_reviews`, `review_scores_rating`, `host_is_superhost`, `number_of_reviews_ltm`) plus city and snapshot date. No listing IDs, names or host details. Reproduce every figure from it with the notebook below |
 | `charts/*.png` | The two published charts |
 
 ### Key columns
@@ -53,6 +54,10 @@ or "above" 4.8 as a whole.
 - `median_buffer`: median number of 1-star reviews a listing above 4.8 can absorb (capped at 20).
 - `within_5_of_superhost`: listings below 4.8 that need five or fewer 5-star reviews to reach it.
 - `pct_superhost`: share of listings whose host holds the badge (`host_is_superhost` on the snapshot).
+
+## Reproduce it
+
+The Kaggle notebook [How many Superhosts are one bad review away?](https://www.kaggle.com/code/basilpaul77/how-many-superhosts-are-one-bad-review-away) recomputes both studies from `listing_fields_2026.csv.gz` and asserts that every published figure matches, for every city.
 
 ## Method
 
