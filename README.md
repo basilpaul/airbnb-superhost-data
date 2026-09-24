@@ -57,7 +57,7 @@ or "above" 4.8 as a whole.
 
 ## Reproduce it
 
-The Kaggle notebook [How many Superhosts are one bad review away?](https://www.kaggle.com/code/basilpaul77/how-many-superhosts-are-one-bad-review-away) recomputes both studies from `listing_fields_2026.csv.gz` and asserts that every published figure matches, for every city.
+The notebook [`notebook/airbnb-superhost-fragility-reproduction.ipynb`](notebook/airbnb-superhost-fragility-reproduction.ipynb) recomputes both studies from `data/listing_fields_2026.csv.gz` and asserts that every published figure matches, for every city. It needs only pandas, numpy and matplotlib.
 
 ## Method
 
