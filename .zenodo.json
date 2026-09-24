@@ -1,0 +1,23 @@
+{
+  "title": "Airbnb Superhost rating fragility and badge rates, 2026",
+  "upload_type": "dataset",
+  "description": "<p>Two measurements over Airbnb listings with 10 or more reviews in 123 cities across 37 countries, built from Inside Airbnb's public June 2026 snapshots.</p><p><strong>Fragility:</strong> of listings whose all-time rating clears Airbnb's 4.8 Superhost line, how many would fall below it after a single 1-star review (44.0% of 541,244 listings above 4.8).</p><p><strong>Badge vs rating:</strong> how many listings at each all-time rating actually hold the Superhost badge (25.1% of listings below 4.8 do; 33.4% of those at or above it do not).</p><p>Per-city and per-country CSVs, full JSON results and two charts. Method and limitations (all-time vs trailing-12-month rating, quarterly lag, listing rather than host as the unit) are in the README. Full write-up: https://stellarreply.com/blog/airbnb-superhost-fragility-study.html</p>",
+  "creators": [
+    {"name": "StellarReply"}
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Airbnb",
+    "Superhost",
+    "short-term rentals",
+    "online reviews",
+    "ratings",
+    "Inside Airbnb",
+    "hospitality"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://stellarreply.com/blog/airbnb-superhost-fragility-study.html", "relation": "isSupplementTo", "resource_type": "publication"},
+    {"identifier": "https://insideairbnb.com/get-the-data/", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ]
+}
