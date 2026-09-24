@@ -1,5 +1,7 @@
 # Airbnb Superhost rating fragility and badge rates, 2026
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22945798.svg)](https://doi.org/10.5281/zenodo.22945798)
+
 Two measurements over Airbnb listings in 123 cities across 37 countries, built from
 [Inside Airbnb](https://insideairbnb.com/get-the-data/)'s public June 2026 snapshots:
 
@@ -82,7 +84,7 @@ the star total and `N` the review count; it is solved in closed form, not simula
 
 CC BY 4.0, the same licence as the underlying Inside Airbnb data. Reuse freely with attribution:
 
-> StellarReply (2026). *Airbnb Superhost rating fragility and badge rates, 2026.*
-> https://stellarreply.com/blog/airbnb-superhost-fragility-study.html. Built from Inside Airbnb data (CC BY 4.0).
+> Paul, B. (2026). *Airbnb Superhost rating fragility and badge rates, 2026* (Version 1.0.0) [Data set]. Zenodo.
+> https://doi.org/10.5281/zenodo.22945798. Built from Inside Airbnb data (CC BY 4.0).
 
 Please credit [Inside Airbnb](https://insideairbnb.com) as the original data source as well.
